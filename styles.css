@@ -1,0 +1,13 @@
+img{
+    height:300px;
+    width: 350px;
+}
+.col-md-4{
+    margin-bottom: 12px;
+}
+h2{
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+    text-shadow: 2px 4px #ffffff;
+}
