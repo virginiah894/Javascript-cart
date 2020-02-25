@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Online Store</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- <link rel="stylesheet" href="styles.css" type="text">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text">
+<script src="index.js" async></script>
 </head>
 <body>
 
@@ -21,6 +23,10 @@
         <div class="card-body">
             <h5></h5>
           <p class="card-text">t-shirt</p>
+          <span class="shop-item-price">ksh1,299</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    
+
         </div>
       </div>
     </div>
@@ -31,6 +37,9 @@
         <div class="card-body">
             <h5></h5>
           <p class="card-text">dress</p>
+          <span class="shop-item-price">ksh1,800</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    
         </div>
       </div>
       </div>
@@ -40,6 +49,9 @@
         <div class="card-body">
             <h5></h5>
           <p class="card-text">man suite</p>
+          <span class="shop-item-price">ksh20,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    
         </div>
       </div>
       </div>
@@ -49,6 +61,9 @@
         <div class="card-body">
             <h5></h5>
           <p class="card-text">women suites</p>
+          <span class="shop-item-price">ksh18,299</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    
         </div>
       </div>
     </div>
@@ -58,19 +73,65 @@
         <div class="card-body">
             <h5></h5>
           <p class="card-text">unisex onesies</p>
+          <span class="shop-item-price">ksh999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    
         </div>
       </div>
     </div>
-    <div class="col-md-4">      <div class="card" style="width: 18rem;">
+    <div class="col-md-4">      
+        <div class="card" style="width: 18rem;">
         <img src="images/shoe.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5></h5>
           <p class="card-text">shoes</p>
+          <span class="shop-item-price">ksh2699</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    
         </div>
       </div>
       </div>
         </div>
         </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src='images/Tee.jpg'>
+                    <span class="cart-item-title">T-Shirt</span>
+                </div>
+                <span class="cart-price cart-column">ksh.1999</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src='images/dress.jpg' >
+                    <span class="cart-item-title">dress</span>
+                </div>
+                <span class="cart-price cart-column">ksh.2699</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">ksh.3400</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
 
 
 

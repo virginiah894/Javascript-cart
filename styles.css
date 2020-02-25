@@ -2,6 +2,10 @@ img{
     height:300px;
     width: 350px;
 }
+.cart-item-image{
+   height:300px;
+   width: 350px; 
+}
 .col-md-4{
     margin-bottom: 12px;
 }
